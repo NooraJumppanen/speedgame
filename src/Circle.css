@@ -1,0 +1,39 @@
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  background: white;
+}
+
+.circlewrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.green {
+  background: yellowgreen;
+}
+
+.red {
+  background: rgb(226, 116, 75);
+}
+
+.yellow {
+  background: rgb(241, 241, 125);
+}
+
+.blue {
+  background: rgb(109, 95, 236);
+}
+
+.circle p {
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 2rem;
+  color: rgb(34, 46, 70);
+}
