@@ -5,8 +5,15 @@ import './Circle.css';
 const Circle = (props) => {
     
     return (
-        <div className={`circle ${props.color}`} onClick={props.click}>
-           <p> {props.id}</p>
+        <div 
+        style = {{
+            backgroundColor: props.color,
+            pointerEvents: props.disabled ? "auto" : "none"
+        }}
+        className={`circle ${props.active ? "active" : ""}`}
+        onClick={props.click}>
+        
+        
             
         </div>
     );

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Bubblegum+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Leckerli+One&display=swap");
 
 * {
   margin: 0;
@@ -7,14 +7,14 @@
 }
 
 h1 {
-  font-family: "Audiowide", cursive;
-  color: white;
+  font-family: "Leckerli One", cursive;
+  color: rgb(22, 5, 108);
   padding: 50px;
   font-size: 4rem;
 }
 
 h2 {
-  font-family: "Bubblegum Sans", cursive;
+  font-family: "Leckerli One", cursive;
   font-size: 2rem;
   color: rgb(34, 46, 70);
 }
@@ -43,4 +43,51 @@ button {
   font-family: "Bubblegum Sans", cursive;
   font-size: large;
   background-color: rgb(207, 222, 248);
+  cursor: pointer;
+}
+
+/****** Game Over popup: *****/
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(54, 91, 114);
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  position: fixed;
+  top: 20vh;
+  left: 50vh;
+  min-height: 30%;
+  width: 50%;
+  background-color: white;
+  opacity: 1;
+  z-index: 1;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.popup p {
+  font-family: "Leckerli One", cursive;
+  font-size: 2rem;
+  color: rgb(34, 46, 70);
+  margin: 40px;
+}
+
+.closebutton {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 15px;
+  background-color: orangered;
+  color: white;
+  box-shadow: none;
+  cursor: pointer;
 }
