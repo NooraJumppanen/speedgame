@@ -73,8 +73,7 @@ class App extends Component {
     this.setState({
       gameStart: true,
       gameStop: false,
-    })
-    
+    });
   };
 
   stopHandler = () => {

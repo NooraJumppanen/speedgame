@@ -8,9 +8,7 @@
   justify-content: center;
   margin: 30px;
   background: white;
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='70' height='84' viewport='0 0 100 100' style='fill:black;font-size:42px;'><text y='50%'>💦</text></svg>")
-      16 0,
-    auto; /*!emojicursor.app*/
+  cursor: url("./assets/img/pouring_water.png"), default;
   box-shadow: 0 0 15px rgb(2, 2, 102);
 }
 
@@ -29,7 +27,7 @@
 .active {
   box-shadow: 0 0 25px yellow;
   border: 5px solid yellow;
-  background-image: url("assets/img/plant.svg");
+  background-image: url("assets/img/plant_two.svg");
   background-size: 95%;
   background-repeat: no-repeat;
 }
