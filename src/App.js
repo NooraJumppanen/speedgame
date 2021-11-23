@@ -4,9 +4,9 @@ import Circle from './Circle';
 import {circles} from './circles.js';
 import GameOver from './GameOver';
 
-import startSound from "./assets/sounds/birds-isaiah658.ogg";
-import endSound from "./assets/sounds/impactsplat01.mp3.flac";
-import clickSound from "./assets/sounds/bubbles-single2.wav";
+import startSound from "./assets/sounds/birds-isaiah658.ogg"; // Author: isaiah658 //
+import endSound from "./assets/sounds/impactsplat01.mp3.flac"; // Author: Brian MacIntosh //
+import clickSound from "./assets/sounds/bubbles-single2.wav"; // Author: Independent.nu //
 
 let gameEndSound = new Audio(endSound);
 let gameStartSound = new Audio(startSound);
@@ -31,7 +31,6 @@ class App extends Component {
   
   clickHandler = (id) => {
     gameClickSound.play();
-    console.log('you clicked: ', id);
 
     if (this.state.current !== id){
       this.stopHandler();
@@ -63,8 +62,6 @@ class App extends Component {
     });
 
     this.timer = setTimeout(this.nextCircle, this.state.pace); 
-
-    console.log("active circle is ", this.state.current);
   };
 
   startHandler = () => {
@@ -93,6 +90,7 @@ class App extends Component {
       score: 0,
       pace: 1500,
       rounds: 0,
+      gameStop: true
       });
   };
 
@@ -115,13 +113,16 @@ class App extends Component {
         disabled={this.state.gameStart}
         />))}
        </div>
-      <div>
+
+        <div>
         <button disabled={this.state.gameStart} onClick={this.startHandler}>start</button>
         <button disabled={this.state.gameStop} onClick={this.stopHandler}>stop</button>
-  
-      </div>
-      </main>
+        </div>
 
+        <div>
+        <p>&copy; Noora Jumppanen 2021</p>
+        </div>
+        </main>
     );
   }
 }

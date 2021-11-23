@@ -19,6 +19,12 @@ h2 {
   color: rgb(34, 46, 70);
 }
 
+p {
+  font-family: "Leckerli One", cursive;
+  font-size: 1rem;
+  color: rgb(34, 46, 70);
+}
+
 main {
   text-align: center;
 

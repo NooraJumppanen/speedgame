@@ -1,9 +1,7 @@
 import React from 'react';
 import './Circle.css';
 
-
 const Circle = (props) => {
-    
     return (
         <div 
         style = {{
@@ -12,9 +10,6 @@ const Circle = (props) => {
         }}
         className={`circle ${props.active ? "active" : ""}`}
         onClick={props.click}>
-        
-        
-            
         </div>
     );
 };
