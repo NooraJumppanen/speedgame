@@ -31,6 +31,7 @@ Noora Jumppanen
 ### Sounds:
 
 opengamearg.org:
-isaiah658 (Ambient Bird Sounds)
-Brian MacIntosh (Bubbel Sound Effects)
-Independent.nu (Wet Squish)
+
+- isaiah658 (Ambient Bird Sounds)
+- Brian MacIntosh (Bubbel Sound Effects)
+- Independent.nu (Wet Squish)
