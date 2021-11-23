@@ -17,7 +17,7 @@ Live page will be here (non-responsive).
 
 ## Screenshot
 
-![Screenshot](/img/speedgame_screenshot.png?raw=true"Screenshot")
+![Screenshot](/src/assets/img/speedgame_screenshot.png?raw=true"Screenshot")
 
 ## Authors and acknowledgement
 
