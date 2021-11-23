@@ -13,7 +13,7 @@ The speed is increasing so be alert!
 
 ## Usage
 
-Live page will be here (non-responsive).
+You can play the game [here](https://suspicious-jang-562838.netlify.app) (non-responsive).
 
 ## Screenshot
 
